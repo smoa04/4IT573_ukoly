@@ -1,0 +1,2 @@
+Název vstupniho souboru: Ukol 1/vstup.txt
+Název vystupniho souboru: Ukol 1/vystup.txt

@@ -1,2 +1,0 @@
-Název vstupniho souboru: vstup.txt
-Název vystupniho souboru: vystup.txt

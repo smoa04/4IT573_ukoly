@@ -2,7 +2,7 @@
 import fs from 'fs'
 
 // Načtení souboru instrukce.txt
-fs.readFile('instrukce.txt', 'utf8', (err, data) => {
+fs.readFile('Ukol 1/instrukce.txt', 'utf8', (err, data) => {
     if (err) {
         console.error('Soubor instrukce.txt nenalezen!');
         return;
