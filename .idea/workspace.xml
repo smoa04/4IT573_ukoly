@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Vytvoření složkové struktury">
-      <change afterPath="$PROJECT_DIR$/Ukol 2/instrukce.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Úkol 2 - paralelně">
+      <change afterPath="$PROJECT_DIR$/Ukol 3/counter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ukol 3/main3.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 2/main2.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/Ukol 2/main2.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol_1_Node.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ukoly_Node.js.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,7 @@
     &quot;Node.js.bin\\www.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.main.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.main2.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main3.mjs.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -83,8 +82,11 @@
       <recent name="C:\Users\Adam\IdeaProjects\Ukol_1_Node.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main2.mjs">
+  <component name="RunManager" selected="Node.js.main3.mjs">
     <configuration name="main2.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 2/main2.mjs" working-dir="$PROJECT_DIR$/Ukol 2">
+      <method v="2" />
+    </configuration>
+    <configuration name="main3.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 3/main3.mjs" working-dir="$PROJECT_DIR$/Ukol 3">
       <method v="2" />
     </configuration>
     <configuration name="main.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 1/main.mjs" working-dir="$PROJECT_DIR$">
@@ -92,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main3.mjs" />
         <item itemvalue="Node.js.main2.mjs" />
         <item itemvalue="Node.js.main.mjs" />
       </list>
@@ -123,7 +126,10 @@
       <workItem from="1741724694823" duration="72000" />
       <workItem from="1741724898003" duration="1536000" />
       <workItem from="1741726467223" duration="504000" />
-      <workItem from="1741784348667" duration="1264000" />
+      <workItem from="1741784348667" duration="1547000" />
+      <workItem from="1741859024611" duration="26000" />
+      <workItem from="1742239729397" duration="3155000" />
+      <workItem from="1742398592468" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="Úkol 1 - funkční verze">
       <option name="closed" value="true" />
@@ -141,11 +147,22 @@
       <option name="project" value="LOCAL" />
       <updated>1741724153587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Úkol 2 - paralelně">
+      <option name="closed" value="true" />
+      <created>1741785895986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741785895986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:pug" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -161,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Úkol 1 - funkční verze" />
     <MESSAGE value="Vytvoření složkové struktury" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vytvoření složkové struktury" />
+    <MESSAGE value="Úkol 2 - paralelně" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úkol 2 - paralelně" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
