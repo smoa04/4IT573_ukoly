@@ -23,12 +23,12 @@ app.use(logger())
 app.use(serveStatic({ root: "public" }))
 
 app.get("/", async (c) => {
-  const rendered = await renderFile("views/index.html", {
+  const index = await renderFile("views/index.html", {
     title: "My todo app",
     todos,
   })
 
-  return c.html(rendered)
+  return c.html(index)
 })
 
 app.post("/todos", async (c) => {
@@ -43,6 +43,34 @@ app.post("/todos", async (c) => {
   return c.redirect("/")
 })
 
+app.get("/todos/:id", async (c) => {
+  const id = Number(c.req.param("id"))
+
+  const todo = todos.find((todo) => todo.id === id)
+
+  if (!todo) return c.notFound()
+
+  const detail = await renderFile("views/detail.html", {
+    todo,
+  })
+
+  return c.html(detail)
+})
+
+app.post("/todos/:id", async (c) => {
+  const id = Number(c.req.param("id"))
+
+  const todo = todos.find((todo) => todo.id === id)
+
+  if (!todo) return c.notFound()
+
+  const form = await c.req.formData()
+
+  todo.title = form.get("title")
+
+  return c.redirect(c.req.header("Referer"))
+})
+
 app.get("/todos/:id/toggle", async (c) => {
   const id = Number(c.req.param("id"))
 
@@ -52,7 +80,7 @@ app.get("/todos/:id/toggle", async (c) => {
 
   todo.done = !todo.done
 
-  return c.redirect("/")
+  return c.redirect(c.req.header("Referer"))
 })
 
 app.get("/todos/:id/remove", async (c) => {
@@ -69,6 +97,6 @@ app.get("/todos/:id/remove", async (c) => {
 
 serve(app, (info) => {
   console.log(
-    "App started on http://localhost:" + info.port
+    `App started on http://localhost:${info.port}`
   )
 })
