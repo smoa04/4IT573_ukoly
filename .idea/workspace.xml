@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Úkol 3 - včetně bonusu">
-      <change afterPath="$PROJECT_DIR$/Ukol 4/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ukol 4/views/todo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Úkol 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +132,7 @@
       <workItem from="1741859024611" duration="26000" />
       <workItem from="1742239729397" duration="3155000" />
       <workItem from="1742398592468" duration="786000" />
-      <workItem from="1742991693219" duration="2436000" />
+      <workItem from="1742991693219" duration="2765000" />
     </task>
     <task id="LOCAL-00001" summary="Úkol 1 - funkční verze">
       <option name="closed" value="true" />
@@ -170,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742399341393</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Úkol 4">
+      <option name="closed" value="true" />
+      <created>1742994359015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742994359015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +199,8 @@
     <MESSAGE value="Vytvoření složkové struktury" />
     <MESSAGE value="Úkol 2 - paralelně" />
     <MESSAGE value="Úkol 3 - včetně bonusu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Úkol 3 - včetně bonusu" />
+    <MESSAGE value="Úkol 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úkol 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
