@@ -11,7 +11,7 @@
 <body>
 <h1>Detail Todočka</h1>
 <p>
-    <strong>Title:</strong> <%= todo.title %>
+    <strong>Název:</strong> <%= todo.title %>
 </p>
 <p>
     <strong>Stav:</strong>
@@ -24,7 +24,7 @@
 </p>
 
 <form method="post" action="/todo/<%= todo.id %>/update">
-    <label for="title">Změnit titulek:</label>
+    <label for="title">Změna názvu:</label>
     <input
             type="text"
             id="title"
