@@ -62,7 +62,10 @@ app.post("/todos/:id", async (c) => {
 
   const form = await c.req.formData()
 
-  todo.title = form.get("title")
+  await db
+    .update(todosTable)
+    .set({ title: form.get("title") })
+    .where(eq(todosTable.id, id))
 
   return c.redirect(c.req.header("Referer"))
 })
