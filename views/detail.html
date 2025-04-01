@@ -24,6 +24,12 @@
     <form action="/todos/<%= todo.id %>" method="post">
       <label>Titulek</label>
       <input name="title" value="<%= todo.title %>" />
+      <label>Priorita</label>
+      <select name="priority">
+        <option value="low" <%= todo.priority === 'low' ? 'selected' : '' %>>Nízká</option>
+        <option value="normal" <%= todo.priority === 'normal' ? 'selected' : '' %>>Střední</option>
+        <option value="high" <%= todo.priority === 'high' ? 'selected' : '' %>>Vysoká</option>
+      </select>
       <button type="submit">Uložit</button>
     </form>
   </body>
