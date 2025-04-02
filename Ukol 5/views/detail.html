@@ -26,10 +26,13 @@
 
   <label for="priority">Přiřazení priority:</label>
   <select name="priority" id="priority">
-    <option value="low">Low</option>
-    <option value="medium">Medium</option>
-    <option value="high">High</option>
-  </select>
+
+    <% if (todo.priority === "low") { %> <option value="low" selected>Low</option> <% }
+    else { %> <option value="low">Low</option> <% } %>
+    <% if (todo.priority === "medium") { %> <option value="medium" selected>Medium</option> <% }
+    else { %> <option value="medium">Medium</option> <% } %>
+    <% if (todo.priority === "high") { %> <option value="high" selected>High</option> <% }
+    else { %> <option value="high">High</option> <% } %> </select>
 
   <br />
   <button type="submit">Uložit</button>
