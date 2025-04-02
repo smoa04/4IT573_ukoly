@@ -6,6 +6,7 @@ import { renderFile } from "ejs"
 import { drizzle } from "drizzle-orm/libsql"
 import { todosTable } from "./src/schema.js"
 import { eq } from "drizzle-orm"
+import { createNodeWebSocket } from "@hono/node-ws"
 
 const db = drizzle({
   connection: "file:db.sqlite",
@@ -13,6 +14,9 @@ const db = drizzle({
 })
 
 const app = new Hono()
+
+const { injectWebSocket, upgradeWebSocket } =
+  createNodeWebSocket({ app })
 
 app.use(logger())
 app.use(serveStatic({ root: "public" }))
@@ -100,11 +104,22 @@ app.get("/todos/:id/remove", async (c) => {
   return c.redirect("/")
 })
 
-serve(app, (info) => {
+app.get(
+  "/ws",
+  upgradeWebSocket((c) => {
+    console.log(c.req.path)
+
+    return {}
+  })
+)
+
+const server = serve(app, (info) => {
   console.log(
     `App started on http://localhost:${info.port}`
   )
 })
+
+injectWebSocket(server)
 
 const getTodoById = async (id) => {
   const todo = await db
