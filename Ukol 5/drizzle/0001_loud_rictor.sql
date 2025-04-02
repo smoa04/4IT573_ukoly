@@ -1,0 +1,1 @@
+ALTER TABLE `todos` ADD `priority` TEXT NOT NULL;

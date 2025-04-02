@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<body>
+<h1><%= title.toUpperCase() %></h1>
+
+<ul>
+  <% for (const todo of todos) { %>
+  <li>
+    <a href="/todos/<%= todo.id %>">
+      <%= todo.title %>
+    </a>
+    (Priorita: <%= todo.priority %>) -
+    <% if (todo.done) { %>
+    <a href="/todos/<%= todo.id %>/toggle">dokončeno</a>
+    <a href="/todos/<%= todo.id %>/remove">odebrat</a>
+    <% } else { %>
+    <a href="/todos/<%= todo.id %>/toggle">nedokončeno</a>
+    <% } %>
+  </li>
+  <% } %>
+</ul>
+
+<form method="post" action="/todos">
+  <input name="title" placeholder="Titulek todočka" />
+  <label for="priority">Přiřazení priority:</label>
+  <select name="priority" id="priority">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+  <button type="submit">Přidat todo</button>
+</form>
+</body>
+</html>
