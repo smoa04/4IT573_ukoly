@@ -11,14 +11,9 @@
   <body>
     <a href="/">Todočka</a>
     <hr />
-    <h1><%= todo.title %></h1>
-    <hr />
-    <% if (todo.done) { %>
-    <a href="/todos/<%= todo.id %>/toggle">dokončeno</a>
-    <a href="/todos/<%= todo.id %>/remove">odebrat</a>
-    <% } else { %>
-    <a href="/todos/<%= todo.id %>/toggle"> nedokončeno </a>
-    <% } %>
+    <div id="todo">
+      <%- include('_todo.html') %>
+    </div>
     <hr />
     <h2>Upravit todočko</h2>
     <form action="/todos/<%= todo.id %>" method="post">
@@ -32,5 +27,21 @@
       </select>
       <button type="submit">Uložit</button>
     </form>
+
+    <script>
+      const ws = new WebSocket("ws://localhost:3000/ws")
+
+      ws.addEventListener("message", (evt) => {
+        const { type, id, html } = JSON.parse(evt.data)
+
+        if (type === "todo" && id === <%= todo.id %>) {
+          const el = document.getElementById("todo")
+
+          el.innerHTML = html
+        } else if (type === "todoDeleted" && id === <%= todo.id %>) {
+          window.location.replace('/')
+        }
+      })
+    </script>
   </body>
 </html>
