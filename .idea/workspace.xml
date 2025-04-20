@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - nove pomocne funkce">
-      <change afterPath="$PROJECT_DIR$/Ukol 6/tests/todosPomocneFce.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/tests/todos.test.js" beforeDir="false" />
-    </list>
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - AVA testy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +158,7 @@
       <workItem from="1745144521118" duration="210000" />
       <workItem from="1745144893695" duration="239000" />
       <workItem from="1745145217112" duration="2235000" />
-      <workItem from="1745147517693" duration="9623000" />
+      <workItem from="1745147517693" duration="10107000" />
     </task>
     <task id="LOCAL-00001" summary="Úkol 1 - funkční verze">
       <option name="closed" value="true" />
@@ -236,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745160972206</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ukol 6 - AVA testy">
+      <option name="closed" value="true" />
+      <created>1745165577791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745165577791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +270,8 @@
     <MESSAGE value="Úkol 4 - změna popisků" />
     <MESSAGE value="Ukol 5" />
     <MESSAGE value="Ukol 6 - nove pomocne funkce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - nove pomocne funkce" />
+    <MESSAGE value="Ukol 6 - AVA testy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - AVA testy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
