@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 5">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - nove pomocne funkce">
+      <change afterPath="$PROJECT_DIR$/Ukol 6/tests/todosPomocneFce.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/drizzle/0000_spooky_talos.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/drizzle/0001_hesitant_patch.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/drizzle/meta/0000_snapshot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/drizzle/meta/0001_snapshot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/drizzle/meta/_journal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ukol 6/index3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ukol 6/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ukol 6/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ukol 6/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ukol 6/tests/todos.test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Ukol 6" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -170,7 +162,7 @@
       <workItem from="1745144521118" duration="210000" />
       <workItem from="1745144893695" duration="239000" />
       <workItem from="1745145217112" duration="2235000" />
-      <workItem from="1745147517693" duration="4994000" />
+      <workItem from="1745147517693" duration="9623000" />
     </task>
     <task id="LOCAL-00001" summary="Úkol 1 - funkční verze">
       <option name="closed" value="true" />
@@ -236,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743609128227</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ukol 6 - nove pomocne funkce">
+      <option name="closed" value="true" />
+      <created>1745160972205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745160972206</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +265,8 @@
     <MESSAGE value="Úkol 4 - label warning vyřešen" />
     <MESSAGE value="Úkol 4 - změna popisků" />
     <MESSAGE value="Ukol 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ukol 5" />
+    <MESSAGE value="Ukol 6 - nove pomocne funkce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - nove pomocne funkce" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
