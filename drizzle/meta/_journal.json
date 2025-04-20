@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "6",
-      "when": 1743064955103,
-      "tag": "0000_spooky_talos",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "6",
-      "when": 1743539783713,
-      "tag": "0001_hesitant_patch",
+      "when": 1745148496169,
+      "tag": "0000_outgoing_nocturne",
       "breakpoints": true
     }
   ]

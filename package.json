@@ -2,10 +2,10 @@
   "name": "todos",
   "version": "1.0.0",
   "description": "Todo app",
-  "main": "index.js",
+  "main": "index3.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch index.js",
+    "dev": "node --watch index3.js",
     "test": "ava",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"
