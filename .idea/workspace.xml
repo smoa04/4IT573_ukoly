@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - poznamka">
+      <change afterPath="$PROJECT_DIR$/Ukol 7/e2e/ukol7.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +55,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.app.js (1).executor": "Run",
     "Node.js.app.js.executor": "Run",
     "Node.js.bin\\www.executor": "Run",
+    "Node.js.index.js (1).executor": "Run",
     "Node.js.index.js.executor": "Run",
     "Node.js.index2.js.executor": "Run",
     "Node.js.index3.js.executor": "Run",
     "Node.js.main.mjs.executor": "Run",
     "Node.js.main2.mjs.executor": "Run",
     "Node.js.main3.mjs.executor": "Run",
+    "Playwright.Další E2E testy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,7 +82,7 @@
     "nodejs_package_manager_path": "npm",
     "prettier.import.notification.dismissed": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,34 +91,44 @@
       <recent name="C:\Users\Adam\IdeaProjects\4IT573_ukoly\Ukol 6\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adam\IdeaProjects\Ukoly_Node.js\Ukol 7\src" />
       <recent name="C:\Users\Adam\IdeaProjects\Ukoly_Node.js\Ukol 5" />
       <recent name="C:\Users\Adam\IdeaProjects\Ukol_1_Node.js\Ukol 1" />
       <recent name="C:\Users\Adam\IdeaProjects\Ukol_1_Node.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index3.js">
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 6/src/app.js" working-dir="$PROJECT_DIR$/Ukol 6/src">
+  <component name="RunManager" selected="Node.js.index.js (1)">
+    <configuration name="Další E2E testy" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/Ukol 7/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$/Ukol 7" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/Ukol 7/e2e/ukol7.spec.js" />
+      <test-names>
+        <test-name value="Další E2E testy" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="index2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 5/index2.js" working-dir="$PROJECT_DIR$/Ukol 5">
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 7/src/app.js" working-dir="$PROJECT_DIR$/Ukol 7/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 6/src/app.js" working-dir="$PROJECT_DIR$/Ukol 6/src">
       <method v="2" />
     </configuration>
     <configuration name="index3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 6/index3.js" working-dir="$PROJECT_DIR$/Ukol 6_">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 4/index.js" working-dir="$PROJECT_DIR$/Ukol 4">
-      <method v="2" />
-    </configuration>
-    <configuration name="main3.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 3/main3.mjs" working-dir="$PROJECT_DIR$/Ukol 3">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 7/index.js" working-dir="$PROJECT_DIR$/Ukol 7">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Playwright.Další E2E testy" />
+        <item itemvalue="Node.js.app.js (1)" />
         <item itemvalue="Node.js.index3.js" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.index2.js" />
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.main3.mjs" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746699103556</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ukol 6 - poznamka">
+      <option name="closed" value="true" />
+      <created>1746699755145</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746699755145</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
