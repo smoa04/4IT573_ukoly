@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - AVA testy">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - poznamka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,7 @@
     <configuration name="index2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 5/index2.js" working-dir="$PROJECT_DIR$/Ukol 5">
       <method v="2" />
     </configuration>
-    <configuration name="index3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 6/index3.js" working-dir="$PROJECT_DIR$/Ukol 6">
+    <configuration name="index3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 6/index3.js" working-dir="$PROJECT_DIR$/Ukol 6_">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ukol 4/index.js" working-dir="$PROJECT_DIR$/Ukol 4">
@@ -242,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745165577791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ukol 6 - poznamka">
+      <option name="closed" value="true" />
+      <created>1746699103556</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746699103556</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="Ukol 5" />
     <MESSAGE value="Ukol 6 - nove pomocne funkce" />
     <MESSAGE value="Ukol 6 - AVA testy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - AVA testy" />
+    <MESSAGE value="Ukol 6 - poznamka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - poznamka" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

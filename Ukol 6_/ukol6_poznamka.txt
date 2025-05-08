@@ -1,0 +1,1 @@
+Ukol 6 je v Githubu ve větvi Main místo Master (https://github.com/smoa04/4IT573_ukoly/tree/main), kterou jsem omylem vytvořil a merge do masteru mi nešel udělat.
