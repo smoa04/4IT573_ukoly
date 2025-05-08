@@ -34,7 +34,7 @@
       ws.addEventListener("message", (evt) => {
         const { type, id, html } = JSON.parse(evt.data)
 
-        if (type === "todo" && id === <%= todo.id %>) {
+        if (type === "todo" && id === "<%= todo.id %>") {
           const el = document.getElementById("todo")
 
           el.innerHTML = html

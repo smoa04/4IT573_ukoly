@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Ukol 6 - poznamka">
-      <change afterPath="$PROJECT_DIR$/Ukol 7/e2e/ukol7.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a781e671-b135-4d0f-8cf5-f53951ddb998.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e3e4cf3-df95-43b4-a658-96aa016b797d" name="Changes" comment="Úkol 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +38,7 @@
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="XAMPP PHP 8.0.6" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -273,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746699755145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Úkol 7">
+      <option name="closed" value="true" />
+      <created>1746709205328</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746709205328</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +320,8 @@
     <MESSAGE value="Ukol 6 - nove pomocne funkce" />
     <MESSAGE value="Ukol 6 - AVA testy" />
     <MESSAGE value="Ukol 6 - poznamka" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ukol 6 - poznamka" />
+    <MESSAGE value="Úkol 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úkol 7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
