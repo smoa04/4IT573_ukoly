@@ -38,7 +38,7 @@
           const el = document.getElementById("todo")
 
           el.innerHTML = html
-        } else if (type === "todoDeleted" && id === <%= todo.id %>) {
+        } else if (type === "todoDeleted" && id === "<%= todo.id %>") {
           window.location.replace('/')
         }
       })
